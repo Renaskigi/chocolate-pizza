@@ -13,7 +13,8 @@ article {
 }
 
 footer {
-
+    width: 90%;
+    margin: 50px auto;
 }
 
 p {
@@ -74,3 +75,27 @@ h4 {
     font-size: 125%;
 }
 
+footer #small-logo {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    
+}
+
+footer p {
+    display: block;
+    text-align: center;
+    font-size: 70%;
+    height: fit-content;
+    margin: 2px auto;
+}
+
+footer div {
+    padding: 0px auto;
+    width: 100%;
+}
+
+hr {
+    display: inline-block;
+    width: 40%;
+}
