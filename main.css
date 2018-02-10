@@ -1,5 +1,7 @@
 header {
-
+    width: 90%;
+    margin: 50px auto;
+    display:inline-block;
 }
 
 article {
@@ -35,11 +37,14 @@ h4 {
 }
 
 .delish {
-
+    display:inline-block;
+    width:400px;
 }
 
 .logos {
-
+    /* margin-top:-20; */
+    width:300px;
+    display:inline-block;
 }
 
 .head {
