@@ -1,3 +1,7 @@
+/* * {
+    border: 2px solid black;
+} */
+
 header {
     width: 90%;
     margin: 50px auto;
@@ -9,7 +13,11 @@ article {
 }
 
 footer {
-
+    width: 90%;
+    margin: 50px auto;
+    /* display: flex;
+    flex-direction: column; */
+    
 }
 
 p {
@@ -68,3 +76,14 @@ h4 {
     font-size: 125%;
 }
 
+footer #small-logo {
+    display: block;
+    width: 25px;
+    height: 25px;
+    margin: 0px auto;
+}
+
+footer p {
+    display: block;
+    text-align: center;
+}
